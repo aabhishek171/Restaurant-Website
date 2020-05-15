@@ -1,0 +1,35 @@
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('images/back.jpg');
+	background-size: cover;
+	height:100vh;
+	background-position: center;
+}
+
+.logo img
+{ 
+	height:100px;
+	float:left;
+	margin:20px;
+}
+
+.home img
+{ 
+	height:100px;
+	float:right;
+	margin:20px;
+}
+
+
+
+.first img
+{
+	border-radius: 80%;
+	margin-left: 0px;
+	float:left;
+}
+
+.second img
+{
+	border-radius: 80%;
+}

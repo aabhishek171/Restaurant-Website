@@ -1,0 +1,33 @@
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('images/back.jpg');
+	background-size: cover;
+	height: 200vh;
+	background-position: center;
+	color: white;
+}
+
+.logo img
+{ 
+	height:100px;
+	float:left;
+	margin:20px;
+}
+
+.home img
+{ 
+	height:100px;
+	float:right;
+	margin:20px;
+}
+
+.review
+{
+	margin-left: 200px;
+}
+
+.review h3
+{
+	margin-left: 90px;
+	font-size:25px;
+}

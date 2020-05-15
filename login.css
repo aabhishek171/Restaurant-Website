@@ -1,0 +1,82 @@
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('images/back.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	background-color: white;
+  border: 1px solid black;
+  height: 240px;
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+ 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group input {
+	
+  width: 100%;
+}
+
+
+.logo img
+{ 
+	height:100px;
+	float:left;
+	margin:20px;
+}
+
+.home img
+{ 
+	height:100px;
+	float:right;
+	margin:20px;
+}
+
+.primary {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background: #3f67a2;
+  cursor: pointer;
+}
+
+
+.primary:hover {
+  background: #e67e22;
+}
+
+.error {
+  font-size: 8px;
+  color: red;
+  visibility: hidden;
+}
+
+.sign
+{
+	color: white;
+	text-align: center;
+	width: 90px;
+    height: 15px;
+	border:2px;
+	border-style: none;
+	text-decoration: none;
+	padding:6px;
+	background-color:#3f67a2;
+}
+
+.sign:hover
+{
+	background: #e67e22;
+	text-decoration: none;
+	
+}

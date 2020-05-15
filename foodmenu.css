@@ -1,0 +1,76 @@
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('images/back.jpg');
+	background-size: cover;
+	height:100vh;
+	background-position: center;
+}
+
+.logo img
+{ 
+	height:100px;
+	float:left;
+	margin:20px;
+}
+
+.home img
+{ 
+	height:100px;
+	float:right;
+	margin:20px;
+}
+
+.hmenu
+{
+	color: white;
+}
+
+.menu
+{
+	margin-top: 50px;
+}
+
+.menu-item-name
+{
+	margin : 5px;
+	color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 15px;
+}
+ 
+.menu h4
+{
+	color: white;
+}
+.menu-item-price
+{
+	font-size: 15px;
+  color: white;
+  float: right;
+  margin : 5px;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
+
+.primary 
+{
+	color: white;
+	margin-left: 50%;
+	width: 100px;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+    background: White;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+}
+
+.primary:hover
+{
+	text-decoration: none;
+	color: white;
+    background: #e67e22;
+}
